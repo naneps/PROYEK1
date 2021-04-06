@@ -1,0 +1,58 @@
+/*  import google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* custom scroll bar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
+.image1 img {
+  width: 500px;
+}
+
+.content-left .logo {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.content-left .logo span {
+    color: rgb(0, 0, 180);
+}
+.content-left .slogan{
+    font-size: 24px;
+    font-weight: 500;
+    margin: 5px;
+}
+.btn.btn-lg{
+    background: rgb(0, 0, 180);
+    color: white;
+}
+.btn.btn-lg:hover{
+ border:2px solid;
+ background: none;
+ color:  rgb(0, 0, 180);;
+}
